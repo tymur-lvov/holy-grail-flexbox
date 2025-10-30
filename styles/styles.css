@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+div {
+  background-color: lightcyan;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  background-color: transparent;
+  gap: 20px;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main {
+  flex-grow: 1;
+}
